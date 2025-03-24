@@ -39,7 +39,7 @@ const HeroSection = () => {
           <div className="relative slide-up animate-slide-up" style={{ animationDelay: '0.3s' }}>
             <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-70"></div>
             <Avatar className="h-64 w-64 md:h-80 md:w-80 relative border-4 border-white shadow-xl">
-              <AvatarImage src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7" alt="Lohansa Munasinghe" className="object-cover" />
+              <AvatarImage src="/lovable-uploads/cc73a0b1-343e-4eb0-9a40-1ca6aff93829.png" alt="Lohansa Munasinghe" className="object-cover" />
               <AvatarFallback className="text-6xl font-bold">LM</AvatarFallback>
             </Avatar>
           </div>
