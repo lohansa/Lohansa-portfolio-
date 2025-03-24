@@ -9,6 +9,7 @@ const projects = [
     description: "An IoT based solution for Agricultural Queries and Smart crop management using node.js and flutter",
     tags: ["Flutter", "Node.js", "MongoDB", "Express"],
     imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    demoUrl: "#",
     githubUrl: "https://github.com/SurathW1/Smart-Sprout-1.0",
     category: "Full Stack"
   },
@@ -17,6 +18,7 @@ const projects = [
     description: "Developed a multithreaded Event Ticketing System featuring real-time ticket allocation and retrieva using Springboot and React",
     tags: ["React", "Springboot", "MongoDB"],
     imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    demoUrl: "#",
     githubUrl: "https://github.com/lohansa/TicketManagementSystemFrontend",
     category: "Full Stack"
   },
@@ -25,6 +27,7 @@ const projects = [
     description: "Marketing website for the application using next.js",
     tags: ["next.js", "React"],
     imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+    demoUrl: "#",
     githubUrl: "https://github.com/SurathW1/Smart-Sprout-1.0",
     category: "Frontend"
   },
@@ -33,6 +36,7 @@ const projects = [
     description: "Developed a website for health products selling and health assisting according to SDG using HTML and CSS",
     tags: ["HTML", "CSS"],
     imageUrl: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    demoUrl: "#",
     githubUrl: "https://github.com/lohansa/Health-Assist-Website-",
     category: "Frontend"
   }
