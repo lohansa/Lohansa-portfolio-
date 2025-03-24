@@ -1,13 +1,12 @@
-
 import { Code } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-16 overflow-hidden bg-gradient-to-br from-[#f4f7f6] to-[#e6e9f0]">
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 right-20 w-96 h-96 bg-blue-100 rounded-full filter blur-3xl opacity-30"></div>
-        <div className="absolute bottom-20 left-20 w-96 h-96 bg-purple-100 rounded-full filter blur-3xl opacity-30"></div>
+        <div className="absolute top-20 right-20 w-96 h-96 bg-blue-100/30 rounded-full filter blur-3xl opacity-30"></div>
+        <div className="absolute bottom-20 left-20 w-96 h-96 bg-purple-100/30 rounded-full filter blur-3xl opacity-30"></div>
       </div>
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
