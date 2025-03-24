@@ -13,7 +13,6 @@ const skills = {
     { name: "React", proficiency: 90 },
     { name: "HTML/CSS", proficiency: 95 },
     { name: "Flutter", proficiency: 75 },
-    { name: "React", proficiency: 80 },
     { name: "Next.js", proficiency: 80 }
   ],
   "Backend": [
