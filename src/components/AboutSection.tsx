@@ -1,4 +1,3 @@
-
 import { User } from 'lucide-react';
 
 const AboutSection = () => {
@@ -19,7 +18,10 @@ const AboutSection = () => {
               <p className="text-lg text-muted-foreground">
                 I'm a computer science undergraduate with a passion for creating intuitive and elegant digital solutions. 
                 My journey in technology began with simple HTML websites, which evolved into a deep fascination with how 
-                software can solve complex problems.
+                software can solve complex problems.I love solving problems and making cool things with code. I'm known for 
+                being a natural leader, guiding teams to success with my positive attitude and strong communication skills. 
+                I'm eager to bring my energy and ideas to your team, where I can learn and grow while making a real difference 
+                through technology.
               </p>
               <p className="text-lg text-muted-foreground">
                 Currently pursuing my Computer Science degree, I've developed a strong foundation in 
@@ -38,19 +40,19 @@ const AboutSection = () => {
                 <h3 className="text-xl font-semibold mb-4">Education & Experience</h3>
                 <div className="space-y-4">
                   <div className="border-l-2 border-primary/30 pl-4">
-                    <p className="text-sm text-muted-foreground">2021 - Present</p>
+                    <p className="text-sm text-muted-foreground">2023 - Present</p>
                     <h4 className="font-medium">BSc in Computer Science</h4>
-                    <p className="text-sm text-muted-foreground">University of Technology</p>
+                    <p className="text-sm text-muted-foreground">University of Westminster</p>
                   </div>
                   <div className="border-l-2 border-primary/30 pl-4">
-                    <p className="text-sm text-muted-foreground">Summer 2023</p>
-                    <h4 className="font-medium">Software Development Intern</h4>
-                    <p className="text-sm text-muted-foreground">Tech Solutions Inc.</p>
+                    <p className="text-sm text-muted-foreground">2022 - 2023</p>
+                    <h4 className="font-medium">Foundation Certificate in Higher Education</h4>
+                    <p className="text-sm text-muted-foreground">Informatics Institute of Technology</p>
                   </div>
                   <div className="border-l-2 border-primary/30 pl-4">
-                    <p className="text-sm text-muted-foreground">2020 - 2021</p>
-                    <h4 className="font-medium">Web Development Bootcamp</h4>
-                    <p className="text-sm text-muted-foreground">Code Academy</p>
+                    <p className="text-sm text-muted-foreground">2008 - 2022</p>
+                    <h4 className="font-medium">Advanced Level (Physical Science)</h4>
+                    <p className="text-sm text-muted-foreground">Defence Services College</p>
                   </div>
                 </div>
               </div>
