@@ -16,7 +16,7 @@ const Footer = () => {
           
           <div className="flex items-center">
             <p className="text-center md:text-right text-muted-foreground flex items-center gap-1">
-              Made with <Heart size={14} className="text-red-500" /> in Colombo, SriLanka
+              Made in Colombo, SriLanka
             </p>
           </div>
         </div>
