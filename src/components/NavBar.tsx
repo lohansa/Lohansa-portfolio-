@@ -27,7 +27,7 @@ const NavBar = () => {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <a href="#" className="text-lg font-semibold tracking-tight">
+        <a href="#" className="text-lg font-semibold tracking-tight text-primary">
           Portfolio
         </a>
         <div className="hidden md:flex space-x-8">

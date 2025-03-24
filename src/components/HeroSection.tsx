@@ -1,22 +1,23 @@
+
 import { Code } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-16 overflow-hidden bg-gradient-to-br from-[#f4f7f6] to-[#e6e9f0]">
+    <section className="relative min-h-screen flex items-center pt-16 overflow-hidden bg-gradient-to-br from-blue-50 to-indigo-50">
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 right-20 w-96 h-96 bg-blue-100/30 rounded-full filter blur-3xl opacity-30"></div>
-        <div className="absolute bottom-20 left-20 w-96 h-96 bg-purple-100/30 rounded-full filter blur-3xl opacity-30"></div>
+        <div className="absolute top-20 right-20 w-96 h-96 bg-blue-200/30 rounded-full filter blur-3xl opacity-30"></div>
+        <div className="absolute bottom-20 left-20 w-96 h-96 bg-indigo-200/30 rounded-full filter blur-3xl opacity-30"></div>
       </div>
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="max-w-3xl slide-up animate-slide-up">
-            <div className="inline-flex items-center gap-2 mb-6 px-3 py-1 rounded-full bg-primary/5 text-primary text-sm font-medium">
+            <div className="inline-flex items-center gap-2 mb-6 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
               <Code size={14} />
               <span>Computer Science Undergraduate</span>
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4">
-              Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Lohansa Munasinghe</span>
+              Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Lohansa Munasinghe</span>
             </h1>
             <div className="typing-container animate-typing mb-6">
               <p className="text-xl md:text-2xl text-muted-foreground">Crafting digital experiences with code</p>
@@ -36,7 +37,7 @@ const HeroSection = () => {
           </div>
           
           <div className="relative slide-up animate-slide-up" style={{ animationDelay: '0.3s' }}>
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-70"></div>
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur opacity-70"></div>
             <Avatar className="h-64 w-64 md:h-80 md:w-80 relative border-4 border-white shadow-xl">
               <AvatarImage src="/lovable-uploads/cc73a0b1-343e-4eb0-9a40-1ca6aff93829.png" alt="Lohansa Munasinghe" className="object-cover" />
               <AvatarFallback className="text-6xl font-bold">LM</AvatarFallback>
