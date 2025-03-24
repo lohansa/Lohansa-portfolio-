@@ -12,17 +12,17 @@ const HeroSection = () => {
         <div className="max-w-3xl slide-up animate-slide-up">
           <div className="inline-flex items-center gap-2 mb-6 px-3 py-1 rounded-full bg-primary/5 text-primary text-sm font-medium">
             <Code size={14} />
-            <span>Computer Science Student</span>
+            <span>Computer Science Undergraduate</span>
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4">
-            Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">John Doe</span>
+            Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Lohansa Munasinghe</span>
           </h1>
           <div className="typing-container animate-typing mb-6">
             <p className="text-xl md:text-2xl text-muted-foreground">Crafting digital experiences with code</p>
           </div>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
             I'm a passionate computer science student exploring the intersection of technology and creativity. 
-            Currently focusing on building elegant, user-centered applications.
+            Currently focusing on UI/UX Design and Frontend Development.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="#projects" className="btn-primary text-center rounded-full px-8 py-3">
