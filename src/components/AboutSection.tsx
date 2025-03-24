@@ -50,6 +50,11 @@ const AboutSection = () => {
                     <p className="text-sm text-muted-foreground">Informatics Institute of Technology</p>
                   </div>
                   <div className="border-l-2 border-primary/30 pl-4">
+                    <p className="text-sm text-muted-foreground">2024</p>
+                    <h4 className="font-medium">Lead UI/UX Designer</h4>
+                    <p className="text-sm text-muted-foreground">Intrisic Startup</p>
+                  </div>
+                  <div className="border-l-2 border-primary/30 pl-4">
                     <p className="text-sm text-muted-foreground">2008 - 2022</p>
                     <h4 className="font-medium">Advanced Level (Physical Science)</h4>
                     <p className="text-sm text-muted-foreground">Defence Services College</p>
