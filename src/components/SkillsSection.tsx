@@ -5,32 +5,29 @@ import { cn } from '@/lib/utils';
 
 const skills = {
   "Languages": [
-    { name: "JavaScript", proficiency: 90 },
-    { name: "Python", proficiency: 85 },
+    { name: "Python", proficiency: 90 },
     { name: "Java", proficiency: 80 },
-    { name: "C++", proficiency: 75 },
-    { name: "TypeScript", proficiency: 85 }
+    
   ],
   "Frontend": [
     { name: "React", proficiency: 90 },
     { name: "HTML/CSS", proficiency: 95 },
-    { name: "Tailwind CSS", proficiency: 85 },
-    { name: "Angular", proficiency: 70 },
+    { name: "Flutter", proficiency: 75 },
+    { name: "React", proficiency: 80 },
     { name: "Next.js", proficiency: 80 }
   ],
   "Backend": [
     { name: "Node.js", proficiency: 85 },
     { name: "Express", proficiency: 80 },
     { name: "MongoDB", proficiency: 75 },
-    { name: "SQL", proficiency: 80 },
-    { name: "Firebase", proficiency: 85 }
+    { name: "SQL", proficiency: 70 },
+    { name: "Firebase", proficiency: 50 }
   ],
   "Tools": [
+    { name: "Figma", proficiency: 100 }
     { name: "Git", proficiency: 90 },
-    { name: "Docker", proficiency: 75 },
-    { name: "AWS", proficiency: 70 },
     { name: "VS Code", proficiency: 95 },
-    { name: "Figma", proficiency: 80 }
+    
   ]
 };
 
