@@ -5,40 +5,36 @@ import { cn } from '@/lib/utils';
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.",
-    tags: ["React", "Node.js", "MongoDB", "Express"],
+    title: "Smart Sprout Mobile Application ",
+    description: "An IoT based solution for Agricultural Queries and Smart crop management using node.js and flutter",
+    tags: ["Flutter", "Node.js", "MongoDB", "Express"],
     imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-    demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SurathW1/Smart-Sprout-1.0",
     category: "Full Stack"
   },
   {
-    title: "Task Management App",
-    description: "A Kanban-style task management application with drag and drop functionality. Built with React and Firebase for real-time updates.",
-    tags: ["React", "Firebase", "Tailwind CSS"],
+    title: "Ticket Booking System",
+    description: "Developed a multithreaded Event Ticketing System featuring real-time ticket allocation and retrieva using Springboot and React",
+    tags: ["React", "Springboot", "MongoDB"],
     imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    demoUrl: "#",
-    githubUrl: "#",
-    category: "Frontend"
+    githubUrl: "https://github.com/lohansa/TicketManagementSystemFrontend",
+    category: "Full Stack"
   },
   {
-    title: "Personal Finance Tracker",
-    description: "A mobile-first web application for tracking personal finances. Features include expense categorization, budget planning, and visualization of spending patterns.",
-    tags: ["TypeScript", "React", "Chart.js", "Firebase"],
+    title: "Smart Sprout Webiste",
+    description: "Marketing website for the application using next.js",
+    tags: ["next.js", "React"],
     imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-    demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SurathW1/Smart-Sprout-1.0",
     category: "Frontend"
   },
   {
-    title: "Weather Forecast API",
-    description: "A RESTful API that provides weather forecast data from multiple sources. Built with Node.js and Express, with caching for improved performance.",
-    tags: ["Node.js", "Express", "API", "Redis"],
+    title: "Health Assist Website",
+    description: "Developed a website for health products selling and health assisting according to SDG using HTML and CSS",
+    tags: ["HTML", "CSS"],
     imageUrl: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
-    demoUrl: "#",
-    githubUrl: "#",
-    category: "Backend"
+    githubUrl: "https://github.com/lohansa/Health-Assist-Website-",
+    category: "Frontend"
   }
 ];
 
