@@ -24,7 +24,7 @@ const skills = {
     { name: "Firebase", proficiency: 50 }
   ],
   "Tools": [
-    { name: "Figma", proficiency: 100 }
+    { name: "Figma", proficiency: 100 },
     { name: "Git", proficiency: 90 },
     { name: "VS Code", proficiency: 95 },
     
