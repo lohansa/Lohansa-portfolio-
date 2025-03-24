@@ -74,7 +74,7 @@ const ProjectsSection = () => {
   }, [activeCategory]);
 
   return (
-    <section id="projects" className="py-20 md:py-32">
+    <section id="projects" className="py-20 md:py-32 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="section-heading sliding-animation" style={{ '--animation-delay': '1' } as React.CSSProperties}>

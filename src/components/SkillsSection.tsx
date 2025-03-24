@@ -34,7 +34,7 @@ const SkillsSection = () => {
   const [activeTab, setActiveTab] = useState("Languages");
 
   return (
-    <section id="skills" className="py-20 md:py-32 bg-secondary/50">
+    <section id="skills" className="py-20 md:py-32 bg-gradient-to-b from-blue-50/50 to-indigo-50/50">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="section-heading sliding-animation" style={{ '--animation-delay': '1' } as React.CSSProperties}>
