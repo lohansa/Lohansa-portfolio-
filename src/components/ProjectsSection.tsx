@@ -39,6 +39,15 @@ const projects = [
     demoUrl: "#",
     githubUrl: "https://github.com/lohansa/Health-Assist-Website-",
     category: "Frontend"
+  },
+  {
+    title: "Plane Management System",
+    description: "A program that can be used to reserve a seat on a plane using Java",
+    tags: ["Java"],
+    imageUrl: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    demoUrl: "#",
+    githubUrl: "https://github.com/lohansa/Plane-Management-System",
+    category: "Backend"
   }
 ];
 
